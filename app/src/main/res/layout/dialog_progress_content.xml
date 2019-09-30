@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:background="@color/transparent"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+
+        >
+        <administrator.duomengde.com.design.ProgressImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/view_list_empty_progress"
+            android:layout_centerVertical="true"
+            android:src="@mipmap/icon_fb"
+            />
+
+        <TextView
+            android:id="@+id/tv_content"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/grey_loading"
+            android:text="@string/loading"
+            android:textStyle="normal"
+            android:textSize="@dimen/sp_12"
+            android:layout_toRightOf="@id/view_list_empty_progress"
+            android:layout_marginLeft="@dimen/dp_5"
+            android:layout_centerVertical="true"
+            />
+    </RelativeLayout>
+
+</RelativeLayout>

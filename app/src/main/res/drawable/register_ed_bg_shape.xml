@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape android:shape="rectangle" xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="@color/register_ed_bg_shape_142539"></solid>
+    <corners android:radius="@dimen/sp_25"></corners>
+        <!--#142539-->
+
+</shape>

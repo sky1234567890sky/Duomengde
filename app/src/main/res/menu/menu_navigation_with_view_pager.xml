@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/menu_home_startpage1"
+        android:checked="true"
+        android:icon="@drawable/select_main_home"
+        android:title="@string/home_startpage"/>
+    <item
+        android:id="@+id/menu_home_club2"
+        android:checked="true"
+        android:icon="@drawable/select_main_club"
+        android:title="俱乐部" />
+    <!--因为需要覆盖view 此处省略android:icon-->
+    <item
+        android:id="@+id/menu_home_fb3"
+        android:icon="@mipmap/icon_fb"
+        android:title="" />
+    <item
+        android:id="@+id/menu_home_me4"
+        android:icon="@drawable/select_main_shopping"
+        android:title="商场" />
+    <item
+        android:id="@+id/menu_home_personal5"
+        android:checked="true"
+        android:icon="@drawable/select_main_personal"
+        android:title="我的"
+        tools:ignore="HardcodedText" />
+
+</menu>
